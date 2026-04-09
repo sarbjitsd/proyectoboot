@@ -73,7 +73,7 @@ nav ul {
   list-style: none;
   gap: 20px;
   height: 100%;
-  align-items: center;
+  align-items: end;
 }
 
 nav a {
@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 .container {
-  padding: 100px 150px 50px 150px;
+  padding: 50px;
 }
 
 .footer {
@@ -151,47 +151,3 @@ section p {
   margin: 10px 0;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-  header {
-    padding: 20px 20px;
-  }
-
-  .container {
-    padding: 100px 20px 50px 20px;
-  }
-
-  .footer {
-    padding: 0px 20px;
-  }
-
-  #biografia h1 {
-    font-size: 2rem;
-  }
-
-  section h2 {
-    font-size: 1.5rem;
-  }
-
-  .polaroid {
-    margin: 20px 0;
-  }
-
-  .polaroid img {
-    max-width: 250px;
-  }
-}
-
-@media (max-width: 480px) {
-  #biografia h1 {
-    font-size: 1.8rem;
-  }
-
-  section h2 {
-    font-size: 1.3rem;
-  }
-
-  .polaroid img {
-    max-width: 200px;
-  }
-}
